@@ -1,0 +1,16 @@
+.container{
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
+    align-items: end;
+}
+.item{
+    background-color: green;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    flex-basis: 50px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
